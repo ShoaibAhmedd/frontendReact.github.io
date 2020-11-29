@@ -1,0 +1,95 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar a:hover{
+
+  color: blue;
+  
+}
+.navbar{
+  margin-left: 50px;
+}
+.navbar a{
+  color:black;
+}
+
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header h1{
+  margin:0px,0,10px,0;
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 34px;;
+  font-weight: 650px;
+  color: black;
+ 
+  
+}
+
+#header .brand-name{
+  color:cornflowerblue;
+}
+#header h4{
+  
+  margin-left: 50px;
+}
+#header .btn-get-started{
+  margin-left: 100px;
+  font-weight: 500px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: cornflowerblue;
+  text-decoration: none;
+  border: 2px solid cornflowerblue ;
+}
+
+#header .btn-get-started:hover{
+
+  background: cornflowerblue;
+  color: aliceblue;
+}
+
+.header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down 5s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
